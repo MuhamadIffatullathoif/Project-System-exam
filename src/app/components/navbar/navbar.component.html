@@ -1,1 +1,14 @@
-Hi, I'm the navbar component
+<mat-toolbar color="primary">
+  <a [routerLink]="'/'" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu_books</mat-icon>
+  </a>
+  <span>Exam portal</span>
+  <span class="example-spacer"></span>
+  <a [routerLink]="'/login'" mat-icon-button class="example-icon" aria-label="Example icon-button with heart icon">
+    Login
+  </a>
+  <a [routerLink]="'/signup'" mat-icon-button class="example-icon mr20 ml70"
+    aria-label="Example icon-button with heart icon">
+    Register
+  </a>
+</mat-toolbar>
